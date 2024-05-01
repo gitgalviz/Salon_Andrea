@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALON DE BELLEZA ANDREA</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes fvs/bnr.png" type="image/png">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>SALÓN DE BELLEZA ANDREA</h1>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#" onclick="mostrarAcerca()">Acerca de</a></li>
+                <li><a href="#"   onclick="mostrarServicios()">Servicios</a></li>
+                <li><a href="#" onclick="mostrarNumerosContacto()">Contacto</a></li>
+                <div id="acercade" class="acerca_de">
+                </div>
+                <div id="servicio" class="servicio_one">
+                </div>
+                <div id="infoContacto" class="contacto-info">
+                </div>
+                </div>
+                <script>
+                    function mostrarAcerca() {
+                        var acercade = document.getElementById("acercade");
+                        acercade.innerHTML = "<p><p>¡Bienvenidos a Salon de Belleza Andrea!</p> En Salon de Belleza Andrea, te ofrecemos servicios de belleza personalizados con un toque de elegancia y profesionalismo. Como tu estilista y manicurista de confianza, me dedico a realzar tu belleza natural con cortes de cabello modernos, tratamientos capilares de calidad y manicuras impecables. Con más de diez años de experiencia en la industria de la belleza, estoy comprometida a brindarte una experiencia excepcional en cada visita. Utilizo productos de primera calidad para garantizar resultados que te hagan sentir hermosa y segura. <p>¡Ven y descubre cómo puedo realzar tu belleza en Salon de Belleza Andrea!</p> <p>¡Espero con ansias consentirte y resaltar tu belleza única!</p> </p>";
+                    }
+                </script>
+                <script>
+                    function mostrarServicios() {
+                        var acercade = document.getElementById("servicio");
+                        servicio.innerHTML = "<p><p>⚫Nuestros Servicios son:⚫</p> <p>- Cortes de Cabello</p> <p>- Coloración de Cabello</p> <p>- Peinados y Estilismo Alisado y Ondulado</p> <p>- Extensiones de Cabello y Tratamientos Capilares Específicos</p> <p>- Maquillaje</p></p>";
+
+
+                    }
+                </script>
+                <script>
+                    function mostrarNumerosContacto() {
+                        var infoContactoDiv = document.getElementById("infoContacto");
+                        infoContactoDiv.innerHTML = "<p><p>⚫Aqui Nuestro Número de Contacto y Redes Sociales:⚫</p>- Celular - 3168707748 - Andrea Galviz</p><p>- Facebook - Salon De Belleza Andrea</p>";
+                    }
+                </script>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pagina">
+        <div class="sub-pagina">
+            <a class="a" href="./">
+                <h3>CORTES</h3>
+            </a>
+            <img class="qs" src="./Logos_Salon/corte.jpg">
+        </div>
+        <div class="sub-pagina">
+            <a class="a" href="./3partecasas_fvs/index.html">
+                <h3>KERATINAS</h3>
+            </a>
+            <img class="qs" src="./Logos_Salon/keratina.jpg">
+        </div>
+        <div class="sub-pagina">
+            <a class="a" href="./2parte_fvs/index.html">
+                <h3>PLANCHADOS</h3>
+            </a>
+            <img class="qs" src="./Logos_Salon/planchado.jpg">
+        </div>
+        <div class="sub-pagina">
+            <a class="a" href="./5partelotes_fvs/index.html">
+                <h3>HIDRATACIONES</h3>
+            </a>
+            <img class="qs" src="./Logos_Salon/hidratacion.jpg">
+        </div>
+        <div class="whatsapp-icon">
+            <a href="https://api.whatsapp.com/send?phone=3168707748&text=Hola,%20estoy%20interesado%20en%20sus%20servicios"
+                target="_blank" title="Chatea con nosotros en WhatsApp">
+                <img src="./Logos_Salon/WhatsApp-logo.jpg" alt="Icono de WhatsApp">
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+</body>
+</html>
